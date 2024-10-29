@@ -25,13 +25,13 @@ The project uses the Churn_Modelling.csv dataset, containing data on 10,000 bank
 - Encoding: Transformed categorical features like Geography and Gender into numeric values.
 - Scaling: Standardized numerical features for better model performance.
 
-  2. Model Architecture
+2. Model Architecture
 - Developed an ANN using the TensorFlow and Keras libraries.
 - Defined layers, including input, hidden, and output layers.
 - Utilized ReLU activation for hidden layers and Sigmoid for output layer.
 - Compiled the model with binary cross-entropy loss and optimized with the Adam optimizer.
 
-  3. Model Training and Evaluation
+3. Model Training and Evaluation
 - Split the data into training and test sets.
 - Trained the ANN on the processed dataset.
 - Evaluated the model using accuracy and other metrics on the test data to assess predictive performance.
